@@ -10,3 +10,4 @@ node3 = TreeNode(3)
 node2 = TreeNode(2,node3)
 node1 = TreeNode(1,None,node2)
 assert [1,3,2] == Solution().inorderTraversal(node1) , 'Test Case Failed'
+print ("successfully done")
